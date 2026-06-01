@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For Putri ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- MUSIC -->
+
+<audio id="bgMusic" loop>
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- LOADING -->
+
+<div id="loading-screen">
+
+<div class="loading-content">
+
+<h1>For Putri ❤️</h1>
+
+<p>Loading memories...</p>
+
+<div class="loader"></div>
+
+</div>
+
+</div>
+
+<!-- SAKURA -->
+
+<div id="petals-container"></div>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-overlay"></div>
+
+<div class="hero-content">
+
+<h1>Putri Handayani ❤️</h1>
+
+<p class="subtitle">
+
+A little place made from my heart
+
+</p>
+
+<img src="foto1.jpg" class="hero-image">
+
+<button id="startBtn">
+
+💌 Open My Heart
+
+</button>
+
+</div>
+
+</section>
+
+<!-- ENVELOPE -->
+
+<section id="envelope-section" class="hidden">
+
+<div class="envelope-wrapper">
+
+<div class="envelope">
+
+<div class="letter">
+
+<h2>For You ❤️</h2>
+
+<p>
+
+Click the letter below
+
+</p>
+
+<button id="openLetter">
+
+Read My Letter 💌
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- LETTER -->
+
+<section id="letter-section" class="hidden">
+
+<div class="glass-card">
+
+<h2>From My Heart ❤️</h2>
+
+<p id="typingText"></p>
+
+</div>
+
+</section>
+
+<!-- DAYS COUNTER -->
+
+<section class="counter-section hidden">
+
+<div class="counter-card">
+
+<h2>Our Journey ❤️</h2>
+
+<h1 id="daysCounter"></h1>
+
+<p>Together and counting...</p>
+
+</div>
+
+</section>
+
+<!-- GALLERY -->
+
+<section class="gallery-section hidden">
+
+<h2>Our Memories 📸</h2>
+
+<div class="gallery">
+
+<div class="slide">
+
+<img src="foto1.jpg">
+
+</div>
+
+<div class="slide">
+
+<img src="foto2.jpg">
+
+</div>
+
+<div class="slide">
+
+<img src="foto3.jpg">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- LOVE MESSAGE -->
+
+<section class="love-section hidden">
+
+<div class="love-card">
+
+<h2>For My Favorite Person ❤️</h2>
+
+<p>
+
+Thank you for being part of my life.
+
+Thank you for every laugh,
+
+every conversation,
+
+every memory,
+
+and every moment we spend together.
+
+You make ordinary days feel special.
+
+And if I could choose again,
+
+I would still choose you.
+
+Every single time.
+
+❤️
+
+</p>
+
+</div>
+
+</section>
+
+<!-- FINAL -->
+
+<section class="final-section hidden">
+
+<h1>I Love You ❤️</h1>
+
+<p>
+
+Forever isn't enough with you.
+
+</p>
+
+<button id="loveButton">
+
+❤️ Click Me ❤️
+
+</button>
+
+</section>
+
+<!-- CONFETTI -->
+
+<canvas id="confetti"></canvas>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
